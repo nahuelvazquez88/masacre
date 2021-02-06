@@ -13,8 +13,8 @@
     
     body{
     
-       background: black;
-    
+       background-color: black;
+       overflow: hidden;
     }
     
     h1{
@@ -22,21 +22,66 @@
     color: white;
     
     }
+
+h2{
+text-align: center;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h5{
+    text-align: right;
+color: white;
+margin: 8px;
+
+}
+
+
+
+#figureti{
+
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 4px solid rgb(41, 9, 9);
+    -webkit-transition:-webkit-transform 0.5s ease-in-out 0.10s; 
+
+
+
+
+
+}
+
     
     
     
     #figure{
         
         width: 200px;
-        
         margin: auto;
         display: block;
         border: 4px solid white;
-        
-        
         -webkit-transition:-webkit-transform 0.5s ease-in-out 0.10s;  
     
     }
+
+   
+
+#figure2{
+
+    width: 376px;
+    height: auto;
+    margin-left: 5px;
+    float: left;
+    display: inline-block;
+    border: 9px solid white;
+    -webkit-transition:-webkit-transform 0.5s ease-in-out 0.10s;
+
+}
+
+
+
+
     
     
     figure img:hover{
@@ -50,6 +95,31 @@
     
     
     }
+
+
+p{
+
+    margin: 2rem auto;
+    text-align: center;
+    display: table;
+    height: 180px;
+    width: 300px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#p{
+text-align: center;
+color: white;
+display: block;
+
+}
+
+
+
+
+
     
     
     .container .btn-menu .logo{
@@ -91,10 +161,10 @@
             
             }
             .cont-menu{
-                width: 100%;
+                width: 80%;
                 max-width: 250px;
                 background:#1c1c1c ;
-                height: 134vh;
+                height: 149vh;
                 position:relative ;
                 transition: all 500ms ease;
                 transform: translateX(0%);
